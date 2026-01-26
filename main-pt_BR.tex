@@ -1,0 +1,113 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=1.6cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}
+  {\large\bfseries}
+  {}
+  {0em}
+  {}
+  [\titlerule]
+
+\begin{document}
+
+% ================= HEADER =================
+{\LARGE \textbf{Vinicius Abreu}} \\[4pt]
+Lead Software Engineer | Back-end Developer \\[6pt]
+
+\href{mailto:vinicius.abreu262@gmail.com}{vinicius.abreu262@gmail.com} $|$
+\href{https://www.linkedin.com/in/vs-abreu/}{LinkedIn} $|$
+\href{https://github.com/vinnedev}{GitHub} \\[10pt]
+
+% ================= INTRODUÇÃO =================
+\section*{Introdução}
+Lead Software Engineer com mais de 5 anos de experiência no design, construção e escalabilidade de sistemas distribuídos em produção. Forte atuação em engenharia backend, microsserviços, processamento assíncrono e arquiteturas cloud-native. Histórico comprovado na recuperação de projetos críticos, aumento da confiabilidade de sistemas, redução de custos operacionais e entrega de soluções escaláveis sob restrições de prazo e contexto. Experiência com Go, Java, Node.js e Python, com foco em padrões de resiliência, clean architecture e performance.
+
+% ================= HABILIDADES =================
+\section*{Habilidades Técnicas}
+\textbf{Linguagens de Programação:} TypeScript, Python, Go, Java, JavaScript \\[3pt]
+\textbf{Backend \& Mensageria:} APIs RESTful, Microsserviços, Sistemas Orientados a Eventos, RabbitMQ \\[3pt]
+\textbf{Resiliência \& Confiabilidade:} Estratégias de retry com exponential backoff e jitter, idempotência, circuit breakers e dead letter queues \\[3pt]
+\textbf{Cloud \& DevOps:} Azure (principal), AWS, GCP, Pipelines CI/CD, Terraform, Docker \\[3pt]
+\textbf{Bancos de Dados:} PostgreSQL, MySQL, MongoDB \\[3pt]
+\textbf{Engenharia de Sistemas:} Sistemas Distribuídos, Design de Sistemas, Observabilidade, Escalabilidade \\[3pt]
+\textbf{Linguagens Adicionais:} Delphi (sistemas legados)
+
+% ================= EXPERIÊNCIA =================
+\section*{Experiência}
+
+\textbf{Celeste AI} — Lead Software Engineer \hfill Jul 2025 – Atual \\
+São José dos Campos, Brasil (Remoto)
+\vspace{-4pt}
+\begin{itemize}[leftmargin=*]
+  \item Liderei o design e a estabilização de uma plataforma de IA distribuída para gravação automatizada de reuniões, transcrição, geração de resumos e fluxos de notificação.
+  \item Assumi a responsabilidade de um sistema instável e de alto custo, entregando uma arquitetura robusta e adequada para produção por meio da introdução de pipelines assíncronos, orquestração baseada em filas e isolamento de falhas.
+  \item Projetei fluxos resilientes utilizando mensageria com estratégias de retry, exponential backoff, jitter e dead letter handling, prevenindo falhas em cascata.
+  \item Melhorei significativamente a confiabilidade da plataforma e reduzi a frequência de incidentes através da implementação de observabilidade, logging estruturado e definição clara de limites entre serviços.
+  \item Contribuí ativamente para decisões arquiteturais com foco em escalabilidade, tolerância a falhas e manutenibilidade a longo prazo.
+\end{itemize}
+
+\vspace{8pt}
+\textbf{Celeste AI} — Software Engineer \hfill Mar 2023 – Jul 2025 \\
+São José dos Campos, Brasil
+\vspace{-4pt}
+\begin{itemize}[leftmargin=*]
+  \item Projetei e implementei um fluxo completo de assistente de reuniões, abrangendo gravação, transcrição, geração de resumos e envio de e-mails por meio de processamento assíncrono.
+  \item Refatorei componentes legados para permitir escalabilidade gradual sem impacto nas cargas de trabalho existentes em produção.
+  \item Resolvi problemas complexos relacionados a agendamento distribuído e execução de tarefas baseadas em tempo ao normalizar fusos horários entre containers, bancos de dados e APIs externas.
+  \item Desenvolvi um serviço de sincronização de calendário integrando eventos do Google Calendar com agendadores internos para provisionar automaticamente assistentes de reunião antes de sessões ao vivo.
+  \item Criei um microsserviço de otimização de custos que reduziu o uso de armazenamento em até 80\% ao extrair e padronizar faixas de áudio de arquivos de vídeo antes da transcrição.
+  \item Integrei planos de assinatura, cobrança recorrente e pacotes baseados em uso, suportando modelos mensais, anuais e sob demanda.
+\end{itemize}
+
+\vspace{8pt}
+\textbf{Agenzia MKT} — Software Engineer \hfill Mar 2022 – Fev 2023 \\
+São José dos Campos, Brasil (Híbrido)
+\vspace{-4pt}
+\begin{itemize}[leftmargin=*]
+  \item Atuei em uma plataforma de automação de mídias sociais orientada por IA, envolvendo geração de conteúdo, agendamento e fluxos de aprovação.
+  \item Desenvolvi serviços backend e integrações para pipelines automatizados de publicação.
+  \item Contribuí para o desenvolvimento de um editor voltado ao cliente, permitindo customização refinada de conteúdos gerados por IA.
+  \item Desenvolvi uma aplicação mobile para suportar fluxos de aprovação e agendamento de postagens.
+\end{itemize}
+
+\vspace{8pt}
+\textbf{Sistema Athos} — Desenvolvedor Full Stack \hfill Dez 2021 – Fev 2023 \\
+Caraguatatuba, Brasil (Híbrido)
+\vspace{-4pt}
+\begin{itemize}[leftmargin=*]
+  \item Desenvolvi e personalizei sistemas empresariais voltados à automação comercial.
+  \item Melhorei a estabilidade, performance e usabilidade de sistemas utilizados por múltiplos clientes.
+  \item Atuei em stacks de frontend (React) e backend (.NET/C\#, Node.js), além de Delphi 2010 em sistemas legados.
+\end{itemize}
+
+\vspace{8pt}
+\textbf{Sistema Athos} — Suporte Técnico \hfill Dez 2020 – Dez 2021 \\
+Caraguatatuba, Brasil (Híbrido)
+\vspace{-4pt}
+\begin{itemize}[leftmargin=*]
+  \item Prestei suporte técnico para instalação, treinamento e manutenção de sistemas empresariais.
+  \item Identifiquei problemas críticos em sistemas fiscais e documentei soluções permanentes posteriormente adotadas internamente.
+\end{itemize}
+
+% ================= FORMAÇÃO =================
+\section*{Formação}
+
+\textbf{MBA em Engenharia de Software} — USP / ESALQ \hfill Nov 2025 – Dez 2027 \\
+
+\textbf{Ciência de Dados} — Pontifícia Universidade Católica de Campinas \hfill Ago 2023 – Out 2023 \\
+
+\textbf{Bacharelado em Engenharia de Software (Incompleto)} — Estácio \hfill Ago 2022 – Ago 2025 \\
+
+% ================= INFORMAÇÕES ADICIONAIS =================
+\section*{Informações Adicionais}
+Perfil com forte senso de ownership, confortável atuando em contextos ambíguos, sistemas legados e desafios técnicos de alto impacto. Atuação focada em resolução pragmática de problemas, comunicação clara e entrega consistente de sistemas confiáveis em produção. Aberto a aprendizado contínuo, colaboração e evolução técnica a partir de novos desafios e contextos.
+
+\end{document}

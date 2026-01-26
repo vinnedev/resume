@@ -1,0 +1,113 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=1.6cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}
+  {\large\bfseries}
+  {}
+  {0em}
+  {}
+  [\titlerule]
+
+\begin{document}
+
+% ================= HEADER =================
+{\LARGE \textbf{Vinicius Abreu}} \\[4pt]
+Lead Software Engineer | Back-end Engineer \\[6pt]
+
+\href{mailto:vinicius.abreu262@gmail.com}{vinicius.abreu262@gmail.com} $|$
+\href{https://www.linkedin.com/in/vs-abreu/}{LinkedIn} $|$
+\href{https://github.com/vinnedev}{GitHub} \\[10pt]
+
+% ================= SUMMARY =================
+\section*{Summary}
+Lead Software Engineer with 5+ years of experience designing, building, and scaling distributed systems in production. Strong background in backend engineering, microservices, asynchronous processing, and cloud-native architectures. Proven track record in recovering critical projects, improving system reliability, reducing operational costs, and delivering scalable solutions under real-world constraints. Hands-on experience with Go, Java, Node.js, and Python, with a strong focus on resilience patterns, clean architecture, and performance.
+
+% ================= SKILLS =================
+\section*{Technical Skills}
+\textbf{Programming Languages:} TypeScript, Python, Go, Java, JavaScript \\[3pt]
+\textbf{Backend \& Messaging:} RESTful APIs, Microservices, Event-driven Systems, RabbitMQ \\[3pt]
+\textbf{Resilience \& Reliability:} Retry strategies with exponential backoff and jitter, idempotency, circuit breakers, dead letter queues \\[3pt]
+\textbf{Cloud \& DevOps:} Azure (primary), AWS, GCP, CI/CD Pipelines, Terraform, Docker \\[3pt]
+\textbf{Datastores:} PostgreSQL, MySQL, MongoDB \\[3pt]
+\textbf{Systems Engineering:} Distributed Systems, System Design, Observability, Scalability \\[3pt]
+\textbf{Additional Languages:} Delphi (legacy systems)
+
+% ================= EXPERIENCE =================
+\section*{Experience}
+
+\textbf{Celeste AI} — Lead Software Engineer \hfill Jul 2025 – Present \\
+São José dos Campos, Brazil (Remote)
+\vspace{-4pt}
+\begin{itemize}[leftmargin=*]
+  \item Led the design and stabilization of a distributed AI platform for automated meeting recording, transcription, summarization, and notification workflows.
+  \item Took ownership of a high-cost, unstable system and delivered a robust, production-ready architecture by introducing asynchronous pipelines, queue-based orchestration, and fault isolation.
+  \item Designed resilient workflows using messaging with retry strategies, exponential backoff, jitter, and dead letter handling to prevent cascading failures.
+  \item Significantly improved platform reliability and reduced incident frequency by implementing observability, structured logging, and clear service boundaries.
+  \item Actively contributed to architectural decisions focused on scalability, fault tolerance, and long-term maintainability.
+\end{itemize}
+
+\vspace{8pt}
+\textbf{Celeste AI} — Software Engineer \hfill Mar 2023 – Jul 2025 \\
+São José dos Campos, Brazil
+\vspace{-4pt}
+\begin{itemize}[leftmargin=*]
+  \item Designed and implemented an end-to-end meeting assistant workflow covering recording, transcription, summarization, and email delivery through asynchronous processing.
+  \item Refactored legacy components to enable gradual scalability without disrupting existing production workloads.
+  \item Resolved complex production issues related to distributed scheduling and time-based triggers by normalizing timezones across containers, databases, and external APIs.
+  \item Built a calendar synchronization service integrating Google Calendar events with internal schedulers to automatically provision meeting assistants ahead of live sessions.
+  \item Developed a cost-optimization microservice that reduced storage usage by up to 80\% by extracting and standardizing audio streams from video files prior to transcription.
+  \item Integrated subscription plans, recurring billing, and usage-based packages, supporting monthly, annual, and on-demand purchase models.
+\end{itemize}
+
+\vspace{8pt}
+\textbf{Agenzia MKT} — Software Engineer \hfill Mar 2022 – Feb 2023 \\
+São José dos Campos, Brazil (Hybrid)
+\vspace{-4pt}
+\begin{itemize}[leftmargin=*]
+  \item Worked on an AI-driven social media automation platform involving content generation, scheduling, and approval workflows.
+  \item Developed backend services and integrations for automated publishing pipelines.
+  \item Contributed to the development of a client-facing editor enabling fine-grained customization of AI-generated content.
+  \item Built a mobile application supporting post approval and scheduling workflows.
+\end{itemize}
+
+\vspace{8pt}
+\textbf{Sistema Athos} — Full Stack Developer \hfill Dec 2021 – Feb 2023 \\
+Caraguatatuba, Brazil (Hybrid)
+\vspace{-4pt}
+\begin{itemize}[leftmargin=*]
+  \item Developed and customized enterprise systems for commercial automation.
+  \item Improved system stability, performance, and usability across multiple client deployments.
+  \item Worked across frontend (React) and backend (.NET/C\#, Node.js), as well as Delphi 2010 for legacy systems.
+\end{itemize}
+
+\vspace{8pt}
+\textbf{Sistema Athos} — Technical Support \hfill Dec 2020 – Dec 2021 \\
+Caraguatatuba, Brazil (Hybrid)
+\vspace{-4pt}
+\begin{itemize}[leftmargin=*]
+  \item Provided technical support for installation, training, and maintenance of enterprise systems.
+  \item Identified critical issues in fiscal systems and documented permanent solutions later adopted internally.
+\end{itemize}
+
+% ================= EDUCATION =================
+\section*{Education}
+
+\textbf{MBA in Software Engineering} — USP / ESALQ \hfill Nov 2025 – Dec 2027 \\
+
+\textbf{Data Science} — Pontifícia Universidade Católica de Campinas \hfill Aug 2023 – Oct 2023 \\
+
+\textbf{B.Sc. in Software Engineering (Incomplete)} — Estácio \hfill Aug 2022 – Aug 2025 \\
+
+% ================= ADDITIONAL =================
+\section*{Additional Information}
+Strong ownership mindset, comfortable operating in ambiguous problem spaces, legacy systems, and high-impact technical challenges. Focused on pragmatic problem-solving, clear communication, and delivering reliable production systems. Open to continuous learning, collaboration, and technical growth through new challenges and environments.
+
+\end{document}

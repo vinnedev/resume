@@ -1,0 +1,38 @@
+name: Build LaTeX document
+
+on:
+  push:
+    branches:
+      - main # or your default branch, e.g., master
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to check out the repo and potentially upload artifacts
+
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v4 # Use the latest version of checkout
+
+      - name: Compile LaTeX main document
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: main.tex
+
+      - name: Compile LaTeX main document
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: main-pt_BR.tex  
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiled-pdf
+          path: main.pdf
+
+      - name: Upload PDF artifact (Portuguese)
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiled-pdf-pt_BR
+          path: main-pt_BR.pdf
